@@ -1,6 +1,218 @@
+/* Tipos de letra */
+
+@font-face {
+    font-family: PokemonEmeraldLatin;
+    src: url(fonts/PokemonEmeraldLatin.ttf);
+}
+
+/* Font oficial Pokemon en negro */
+@font-face {
+    font-family: PokemonSolid;
+    src: url(fonts/Pokemon_Solid.ttf);
+}
+
+/* Font oficial Pokemon en blanco */
+@font-face {
+    font-family: PokemonHollow;
+    src: url(fonts/Pokemon_Hollow.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+/* Letra tipo Arcade (Para imagenes de "Minijuegos in-game"*/
+@font-face {
+    font-family: PressStart2P;
+    src: url(fonts/PressStart2P.ttf);
+}
+
+@font-face {
+    font-family: Fredoka;
+    src: url(fonts/Fredoka.ttf);
+}
+
+/* Reglas generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fredoka;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Segundo rectángulo debajo de la vista inicial */
+#segundoRectangulo {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 998;
+}
+
+/* Header */
+nav {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+/* Logo */
+#logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+#logoNormal {
+    height: 100%;
+    width: auto;
+}
+
+/* Navegación */
 nav ul {
-    list-style-type: none; /* Quitamos las viñetas de la lista */
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
+
 nav li {
-    display: inline; /* Ítems del menú en una línea horizontal */ 
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
 }
+
+nav li:hover {
+    transform: translateY(-3px);
+}
+
+nav li:first-child {
+    margin-right: 0;
+    transform: none;
+}
+
+nav li:last-child {
+    margin-right: 0;
+    transform: none;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Bandera */
+.flag-container {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    width: 35px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+/* Primera pantalla */
+
+/* Rectángulo */
+#rectanguloGrande {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 105vh;
+    background-image: url(multimedia/images/fondoEevee.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Texto de la versión del juego */
+#versionJuego {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenedor del botón de descarga */
+.descargar-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.descargar-boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 40px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.descargar-boton:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.descargar-imagen {
+    width: 35px;
+    height: auto;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#descargar-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#versionTexto {
+    color: #ffffff;
+    font-size: 0.7rem;
+    color: #eeeeee;
+    margin-top: 2px;
+}
+
+
