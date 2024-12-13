@@ -46,6 +46,11 @@ body {
     overflow-x: hidden;
 }
 
+footer {
+    background-color: antiquewhite;
+    padding-top: 40px;
+}
+
 /* Segundo rectángulo debajo de la vista inicial */
 #segundoRectangulo {
     position: relative;
@@ -216,3 +221,22 @@ nav li a {
 }
 
 
+/* Footer */
+
+#divFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logoNormalFooter {
+    width: 60px;
+    height: auto;
+}
+
+#CopyrightTextoFooter {
+    margin-top: 10px; /* Espacio entre el logo y el texto */
+    font-size: 0.9rem; /* Ajusta el tamaño del texto según sea necesario */
+    color: black; /* Color del texto */
+}
