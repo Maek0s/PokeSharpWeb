@@ -28,8 +28,7 @@ function changeLanguage(language) {
         changeIt('#faq', 'FAQ');
         changeIt('#descargar-texto', 'Descargar');
         changeIt('#versionJuego', 'En desarrollo');
-      //  changeIt('versionTexto', 'No disponible');
-        changeIt2('descargar-texto','versionTexto','No disponible')
+        changeIt('#versionTexto','No disponible')
     } else if (language === 'en') {
         document.title = 'PokeSharp - Home';
         changeIt('#descargas','Download')
@@ -39,8 +38,7 @@ function changeLanguage(language) {
         changeIt('#faq','FAQ')
         changeIt('#descargar-texto','Download')
         changeIt('#versionJuego','In development')
-        changeIt2('descargar-texto', 'versionTexto','Unavailable')
-      //  changeIt('versionTexto','Unavailable')
+        changeIt('#versionTexto','Unavailable')
     }
 }
 

@@ -104,6 +104,7 @@ nav ul {
 nav li {
     margin-right: 15px;
     display: flex;
+    font-size: 18px;
     align-items: center;
 }
 
@@ -214,10 +215,11 @@ nav li a {
 }
 
 #versionTexto {
+    float: left;
     color: #ffffff;
     font-size: 0.7rem;
     color: #eeeeee;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 
@@ -236,7 +238,19 @@ nav li a {
 }
 
 #CopyrightTextoFooter {
-    margin-top: 10px; /* Espacio entre el logo y el texto */
-    font-size: 0.9rem; /* Ajusta el tamaño del texto según sea necesario */
-    color: black; /* Color del texto */
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+footer hr {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
 }
