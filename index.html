@@ -4,20 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="estiloMainPage.css">
+        <link rel="stylesheet" href="styles/estiloMainPage.css">
         <link rel="icon" href="multimedia/images/pokeSharpLogoProvisional.png" type="image/png">
-        <title>PokeSharp - Inicio</title>
+        <title data-translate="title">PokeSharp - Inicio</title>
     </head>
     <body>
         <header>
             <nav>
                 <ul>
                     <li id="logo"> <img src="multimedia/images/pokeSharpLogoProvisional.png" alt="Logo PokeSharp" id="logoNormal"> </li>
-                    <li id="descargas"> <a href="#">Descargar</a> </li>
-                    <li id="notasParche"> <a href="#">Notas parche</a> </li>
-                    <li id="discord"> <a href="#">Discord</a> </li>
-                    <li id="redesSociales"> <a href="#">Redes sociales</a> </li>
-                    <li id="faq"> <a href="#">FAQ</a> </li>
+                    <li id="descargas"> <a data-translate="descargarNav" href="#">Descargar</a> </li>
+                    <li id="notasParche"> <a data-translate="versionesNav" href="#">Notas parche</a> </li>
+                    <li id="discord"> <a data-translate="discordNav" href="#">Discord</a> </li>
+                    <li id="redesSociales"> <a data-translate="redesNav" href="#">Redes sociales</a> </li>
+                    <li id="faq"> <a data-translate="faqNav" href="#">FAQ</a> </li>
                     <li>
                         <img src="multimedia/images/banderaEspanya.png" alt="Español" id="spanish-flag" class="flag">
                         <img src="multimedia/images/banderaUnitedStates.png" alt="English" id="english-flag" class="flag">
@@ -25,27 +25,29 @@
                 </ul>
             </nav>
         </header>
-        
-        <div id="rectanguloGrande">
-            <h2 id="versionJuego">En desarrollo</h2>
-            <div class="descargar-container">
-                <button class="descargar-boton">
-                    <img src="multimedia/images/imagenDescargar.png" alt="Imagen" class="descargar-imagen">
-                    <div class="comodin">
-                        <span id="descargar-texto">Descargar</span>
-                        <span id="versionTexto">No disponible</span>
-                    </div>
-                </button>
+
+        <main>
+            <div id="rectanguloGrande">
+                <h2 id="versionJuego" data-translate="versionJuego">En desarrollo</h2>
+                <div class="descargar-container">
+                    <button class="descargar-boton">
+                        <img src="multimedia/images/imagenDescargar.png" alt="Imagen" class="descargar-imagen">
+                        <div class="comodin">
+                            <span id="descargar-texto" data-translate="descargarTexto">Descargar</span>
+                            <span id="versionTexto" data-translate="versionTexto">No disponible</span>
+                        </div>
+                    </button>
+                </div>
             </div>
-        </div>
-        <div id="segundoRectangulo"></div>
+            <div id="segundoRectangulo"></div>
+        </main>
 
         <footer>
             <div id="divFooter">
                 <img src="multimedia/images/pokeSharpLogoProvisional.png" alt="Logo PokeSharp" id="logoNormalFooter">
                 <span id="CopyrightTextoFooter">&copy; 2025 PokeSharp</span>
                 <p>Todas las texturas, imágenes y otros activos utilizados pertenecen a sus respectivos propietarios.</p>
-                <p>PokeSharp no está afiliado ni a Nintendo, Game Freak, ni The Pokémon Company.</p>
+                <p>PokeSharp no está afiliado ni a Nintendo, Game Freak, ni a The Pokémon Company.</p>
                 <hr width="100px">
                 <div id="redesSocialesFooter">
                     <p>Logos de Redes aquí</p>

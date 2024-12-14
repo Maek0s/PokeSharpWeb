@@ -2,35 +2,35 @@
 
 @font-face {
     font-family: PokemonEmeraldLatin;
-    src: url(fonts/PokemonEmeraldLatin.ttf);
+    src: url(../fonts/PokemonEmeraldLatin.ttf);
 }
 
 /* Font oficial Pokemon en negro */
 @font-face {
     font-family: PokemonSolid;
-    src: url(fonts/Pokemon_Solid.ttf);
+    src: url(../fonts/Pokemon_Solid.ttf);
 }
 
 /* Font oficial Pokemon en blanco */
 @font-face {
     font-family: PokemonHollow;
-    src: url(fonts/Pokemon_Hollow.ttf);
+    src: url(../fonts/Pokemon_Hollow.ttf);
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
 }
 
 /* Letra tipo Arcade (Para imagenes de "Minijuegos in-game"*/
 @font-face {
     font-family: PressStart2P;
-    src: url(fonts/PressStart2P.ttf);
+    src: url(../fonts/PressStart2P.ttf);
 }
 
 @font-face {
     font-family: Fredoka;
-    src: url(fonts/Fredoka.ttf);
+    src: url(../fonts/Fredoka.ttf);
 }
 
 /* Reglas generales */
@@ -104,12 +104,14 @@ nav ul {
 nav li {
     margin-right: 15px;
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     align-items: center;
 }
 
 nav li:hover {
-    transform: translateY(-3px);
+    color: #03a3ff;
 }
 
 nav li:first-child {
@@ -134,7 +136,7 @@ nav li a {
 }
 
 .flag {
-    width: 35px;
+    width: 30px;
     height: auto;
     cursor: pointer;
     margin-left: 10px;
@@ -150,7 +152,7 @@ nav li a {
     left: 0;
     width: 100vw;
     height: 105vh;
-    background-image: url(multimedia/images/fondoEevee.png);
+    background-image: url(../multimedia/images/fondoEevee.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -1,22 +1,50 @@
+let currentLanguage = 'es';
+
 // Se ejecuta al inicio
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('english-flag').style.display = 'none';
     document.getElementById('spanish-flag').style.display = 'inline';
-    changeLanguage('es');
+   // changeLanguage('es');
+   setLanguage('es');
 });
 
 // Al hacer clic a la bandera de España
 document.getElementById('spanish-flag').addEventListener('click', function() {
-    changeLanguage('en');
+    //changeLanguage('en');
+    setLanguage('en')
     toggleFlags();
 });
 
 // Al hacer clic a la bandera de Estados Unidos
 document.getElementById('english-flag').addEventListener('click', function() {
-    changeLanguage('es');
+    //changeLanguage('es');
+    setLanguage('es')
     toggleFlags();
 });
 
+// Función para cargar el archivo JSON del idioma
+async function loadTranslations(language) {
+    const response = await fetch(`traducciones/${language}.json`);
+    const translations = await response.json();
+    return translations;
+}
+
+// Función para aplicar las traducciones al HTML
+async function setLanguage(language) {
+    currentLanguage = language;
+    const translations = await loadTranslations(language);
+
+    document.querySelectorAll('[data-translate]').forEach((element) => {
+        const key = element.getAttribute('data-translate');
+        if (translations[key]) {
+            element.textContent = translations[key];
+        }
+    });
+
+    // Cambiar el título del documento
+    document.title = translations['title'];
+}
+/*
 // Cambia el idioma dependiendo el idioma
 function changeLanguage(language) {
     if (language === 'es') {
@@ -52,24 +80,7 @@ function changeIt(id, text) {
         console.error(`No se pudo encontrar el elemento con id: ${id}`);
     }
 }
-
-function changeIt2(padre, hijo, texto) {
-    const container = document.getElementById(padre);
-    if (container) {
-        console.log("Contenedor encontrado:", container);
-        console.log("Elementos dentro de " + padre + ":", container.children);
-
-        const versionTexto = container.querySelector(`#${hijo}`);
-        if (versionTexto) {
-            versionTexto.textContent = texto;
-        } else {
-            console.error(`No se encontró el elemento ${hijo} dentro de ${padre}`);
-        }
-    } else {
-        console.error(`No se encontró el contenedor con id: ${padre}`);
-    }
-}
-
+*/
 
 // Cambio de banderas visualmente
 function toggleFlags() {
