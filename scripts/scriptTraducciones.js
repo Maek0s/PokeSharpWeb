@@ -22,10 +22,18 @@ document.getElementById('english-flag').addEventListener('click', function() {
 
 // Función para cargar el archivo JSON del idioma
 async function loadTranslations(language) {
-    const response = await fetch(`../traducciones/${language}.json`);
-    console.log(`../traducciones/${language}.json`);
-    const translations = await response.json();
-    
+    try {
+        const response = await fetch(`../traducciones/${language}.json`);
+        console.log(`../traducciones/${language}.json`);
+        if (!response.ok) {
+            throw new Error(`Error al cargar el archivo de traducción: ${response.status}`);
+        }
+        const translations = await response.json();
+    } catch (error) {
+        console.error("Error al cargar las traducciones:", error);
+        return {}; // Devuelve un objeto vacío en caso de error
+    }
+
     return translations;
 }
 
@@ -37,7 +45,10 @@ async function setLanguage(language) {
     document.querySelectorAll('[data-translate]').forEach((element) => {
         const key = element.getAttribute('data-translate');
         if (translations[key]) {
+            console.log(`Traduciendo ${key}: ${translations[key]}`);
             element.textContent = translations[key];
+        } else {
+            console.warn(`Clave no encontrada en el JSON: ${key}`);
         }
     });
 
