@@ -8,5 +8,13 @@
     "versionJuego": "En desarrollo",
     "descargarTexto": "Descargar",
     "versionTexto": "No disponible",
-    "footerTexto": "Texto del footer"
-}
+    "queEs": "¿Qué es PokeSharp?",
+    "queEsP1": "Es un juego fangame de Pokémon con una aventura única ¿A qué esperas?",
+    "queEsP2": "Historia, pokémons únicos y NPCs únicos y entretenidos.",
+    "npcsUnicos": "NPCs únicos",
+    "juegosInGame": "Juegos in-game",
+    "hechoCon": "Hecho con",
+    "pPropiedadFooter": "Todas las texturas, imágenes y otros activos utilizados pertenecen a sus respectivos propietarios.",
+    "pAfiliadoFooter": "PokeSharp no está afiliado ni a Nintendo, Game Freak, ni a The Pokémon Company."
+  }
+  

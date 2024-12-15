@@ -1,6 +1,11 @@
 /* Tipos de letra */
 
 @font-face {
+    font-family: PokemonGB;
+    src: url(../fonts/PokemonGBChanged.ttf);
+}
+
+@font-face {
     font-family: PokemonEmeraldLatin;
     src: url(../fonts/PokemonEmeraldLatin.ttf);
 }
@@ -47,17 +52,8 @@ body {
 }
 
 footer {
-    background-color: antiquewhite;
-    padding-top: 40px;
-}
-
-/* Segundo rectángulo debajo de la vista inicial */
-#segundoRectangulo {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 998;
+    background-color: #678cf8;
+    padding-top: 20px;
 }
 
 /* Header */
@@ -76,7 +72,7 @@ nav {
     box-sizing: border-box;
 }
 
-/* Logo */
+ /* Logo */
 #logo {
     display: flex;
     align-items: center;
@@ -91,7 +87,7 @@ nav {
     width: auto;
 }
 
-/* Navegación */
+/* NAVEGACION */
 nav ul {
     display: flex;
     list-style: none;
@@ -105,7 +101,6 @@ nav li {
     margin-right: 15px;
     display: flex;
     font-size: 20px;
-    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     align-items: center;
 }
@@ -125,15 +120,11 @@ nav li:last-child {
 }
 
 nav li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-/* Bandera */
-.flag-container {
-    display: flex;
-    align-items: center;
-}
+ /* Bandera */
 
 .flag {
     width: 30px;
@@ -143,9 +134,10 @@ nav li a {
     display: inline-block;
 }
 
-/* Primera pantalla */
+/* MAIN */
 
-/* Rectángulo */
+ /* Primera pantalla */
+
 #rectanguloGrande {
     position: relative;
     top: 0;
@@ -166,7 +158,7 @@ nav li a {
     overflow: hidden;
 }
 
-/* Texto de la versión del juego */
+ /* Texto de la versión del juego */
 #versionJuego {
     text-align: center;
     white-space: nowrap;
@@ -175,7 +167,7 @@ nav li a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Contenedor del botón de descarga */
+ /* Contenedor del botón de descarga */
 .descargar-container {
     display: flex;
     align-items: center;
@@ -185,10 +177,8 @@ nav li a {
 .descargar-boton {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 12px 40px;
     font-size: 1.1rem;
-    cursor: pointer;
     background-color: #007bff;
     color: white;
     border: none;
@@ -224,6 +214,73 @@ nav li a {
     margin-top: 1px;
 }
 
+ /* Segunda pantalla */
+
+/* Segundo rectángulo debajo de la vista inicial */
+#segundoRectangulo {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #193487 !important;
+    z-index: 998;
+}
+
+#segundoRectangulo * {
+    text-align: center;
+    color: white;
+}
+
+#segundoRectangulo iframe {
+    align-items: center;
+}
+
+.video {
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+    padding: 15px;
+    margin: 0 auto;
+    width: 680px;
+    height: auto;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#segundoRectangulo h2 {
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-family: PokemonGB;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h3 {
+    font-family: PressStart2P;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#segundoRectangulo p {
+    margin-bottom: 7px;
+}
+
+#hechoConDiv {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#hechoConDiv img {
+    height: auto;
+    width: 150px;
+}
+
+#hechoConDiv img {
+    height: auto;
+    width: 150px;
+}
 
 /* Footer */
 

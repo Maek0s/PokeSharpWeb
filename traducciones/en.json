@@ -3,10 +3,18 @@
     "descargarNav": "Download",
     "versionesNav": "Patch notes",
     "discordNav": "Discord",
-    "redesNav": "Social Media",
+    "redesNav": "Social media",
     "faqNav": "FAQ",
     "versionJuego": "In development",
     "descargarTexto": "Download",
     "versionTexto": "Unavailable",
-    "footerTexto": "Footer text"
-}
+    "queEs": "What is PokeSharp?",
+    "queEsP1": "It's a Pokémon fangame with a unique adventure. What are you waiting for?",
+    "queEsP2": "Story, unique Pokémon, and entertaining unique NPCs.",
+    "npcsUnicos": "Unique NPCs",
+    "juegosInGame": "In-game minigames",
+    "hechoCon": "Made with",
+    "pPropiedadFooter": "All textures, images, and other assets used belong to their respective owners.",
+    "pAfiliadoFooter": "PokeSharp is not affiliated with Nintendo, Game Freak, or The Pokémon Company."
+  }
+  
