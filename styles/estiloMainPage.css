@@ -126,6 +126,11 @@ nav li a {
 
  /* Bandera */
 
+.flag-container {
+    display: flex;
+    align-items: center;
+}
+
 .flag {
     width: 30px;
     height: auto;
