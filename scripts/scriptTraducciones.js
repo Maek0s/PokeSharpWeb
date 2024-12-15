@@ -23,6 +23,7 @@ document.getElementById('english-flag').addEventListener('click', function() {
 // Función para cargar el archivo JSON del idioma
 async function loadTranslations(language) {
     const response = await fetch(`../traducciones/${language}.json`);
+    console.log(`../traducciones/${language}.json`);
     const translations = await response.json();
     
     return translations;
