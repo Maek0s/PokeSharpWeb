@@ -22,17 +22,12 @@ document.getElementById('english-flag').addEventListener('click', function() {
 
 // Función para cargar el archivo JSON del idioma
 async function loadTranslations(language) {
-    try {
-        const response = await fetch(`../traducciones/${language}.json`);
-        console.log(`../traducciones/${language}.json`);
-        if (!response.ok) {
-            throw new Error(`Error al cargar el archivo de traducción: ${response.status}`);
-        }
-        const translations = await response.json();
-    } catch (error) {
-        console.error("Error al cargar las traducciones:", error);
-        return {}; // Devuelve un objeto vacío en caso de error
+    const response = await fetch(`../traducciones/${language}.json`);
+    console.log(`../traducciones/${language}.json`);
+    if (!response.ok) {
+        console.log(`Error al cargar el archivo de traducción: ${response.status}`);
     }
+    const translations = await response.json();
 
     return translations;
 }
