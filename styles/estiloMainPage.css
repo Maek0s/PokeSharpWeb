@@ -226,9 +226,10 @@ nav li a {
 #segundoRectangulo {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: #193487 !important;
     z-index: 998;
+    padding: 40px 20px;
 }
 
 #segundoRectangulo * {
@@ -245,7 +246,8 @@ nav li a {
     margin-bottom: 40px !important;
     padding: 15px;
     margin: 0 auto;
-    width: 680px;
+    width: 100%;
+    max-width: 680px;
     height: auto;
     background-color: black;
     border-radius: 15px;
@@ -266,12 +268,45 @@ h3 {
     text-align: center;
 }
 
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.content-section img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.content-section.reverse img {
+    width: 150px;
+    height: auto;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.content-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.content-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 #segundoRectangulo p {
     margin-bottom: 7px;
 }
 
 #hechoConDiv {
     padding-top: 20px;
+    padding-bottom: 50px;
     display: flex;
     gap: 30px;
     justify-content: center;
