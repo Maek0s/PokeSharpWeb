@@ -11,8 +11,11 @@
     "queEs": "¿Qué es PokeSharp?",
     "queEsP1": "Es un juego fangame de Pokémon con una aventura única ¿A qué esperas?",
     "queEsP2": "Historia, pokémons únicos y NPCs únicos y entretenidos.",
-    "npcsUnicos": "NPCs únicos",
-    "juegosInGame": "Juegos in-game",
+    "uniqueNpcs": "NPCs únicos",
+    "textNpcs": "Encontrarás NPCs a lo largo de tu aventura, completamente nuevos, personas reales con guiños a cosas relacionadas con esa persona en la vida real.",
+    "juegosInGame": "Minijuegos en el juego",
+    "text1Minigames": "En medio del juego encontrarás minijuegos conocidos y entretenidos,",
+    "text2Minigames": "con los que podrás ganar recompensas o pasar un buen rato.",
     "hechoCon": "Hecho con",
     "pPropiedadFooter": "Todas las texturas, imágenes y otros activos utilizados pertenecen a sus respectivos propietarios.",
     "pAfiliadoFooter": "PokeSharp no está afiliado ni a Nintendo, Game Freak, ni a The Pokémon Company."
