@@ -309,7 +309,11 @@ h3 {
     border: none;
     height: 1px;
     background-color: rgb(89, 138, 245);
-    margin: 50px auto;
+    margin: 0px auto;
+}
+
+.separateCategories:last-of-type {
+    margin-bottom: 30px;
 }
 
 /* Div que contiene las tecnologias utilizadas */
