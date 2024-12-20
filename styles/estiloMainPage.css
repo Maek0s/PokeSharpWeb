@@ -318,7 +318,7 @@ h3 {
 
 /* Div que contiene las tecnologias utilizadas */
 #hechoConDiv {
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 10px;
     display: flex;
     gap: 30px;
@@ -399,7 +399,3 @@ footer hr {
     height: 1px;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-/*pruebas*/
-
-
