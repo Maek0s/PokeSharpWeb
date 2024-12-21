@@ -5,29 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="styles/estiloMainPage.css">
-        <script src="https://kit.fontawesome.com/15d8dc6e81.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/15d8dc6e81.js" crossorigin="anonymous" rel="stylesheet"></script>
         <link rel="icon" href="multimedia/images/pokeSharpLogoProvisional.png" type="image/png">
         <title data-translate="title">PokeSharp - Inicio</title>
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li id="logo"> <img src="multimedia/images/pokeSharpLogoProvisional.png" alt="Logo PokeSharp" id="logoNormal"> </li>
-                    <li id="descargas"> <a data-translate="descargarNav" href="#">Descargar</a> </li>
-                    <li id="notasParche"> <a data-translate="versionesNav" href="#">Notas parche</a> </li>
-                    <li id="discord"> <a data-translate="discordNav" href="https://discord.gg/FqJ6ZgYRrU" target="_blank" rel="noopener noreferrer">Discord</a> </li>
-                    <li id="redesSociales"> <a data-translate="redesNav" href="#">Redes sociales</a> </li>
-                    <li id="faq"> <a data-translate="faqNav" href="#">FAQ</a> </li>
-                    <li>
-                        <img src="multimedia/images/banderaEspanya.png" alt="Español" id="spanish-flag" class="flag">
-                        <img src="multimedia/images/banderaUnitedStates.png" alt="English" id="english-flag" class="flag">
-                    </li>
-                </ul>
+            <div id="header-container">
+                <div id="logo-container">
+                    <img src="multimedia/images/pokeSharpLogoProvisional.png" alt="Logo PokeSharp" id="logoNormal">
+                </div>
+
+                <nav>
+                    <ul>
+                        <li id="descargas"> <a data-translate="descargarNav" href="#">Descargar</a> </li>
+                        <li id="notasParche"> <a data-translate="versionesNav" href="#">Actualizaciones</a> </li>
+                        <li id="discord"> <a data-translate="discordNav" href="https://discord.gg/FqJ6ZgYRrU" target="_blank" rel="noopener noreferrer">Discord</a> </li>
+                        <li id="redesSociales"> <a data-translate="redesNav" href="#">Redes</a> </li>
+                        <li id="faq"> <a data-translate="faqNav" href="#">FAQ</a> </li>
+                        <li>
+                            <img src="multimedia/images/banderaEspanya.png" alt="Español" id="spanish-flag" class="flag">
+                            <img src="multimedia/images/banderaUnitedStates.png" alt="English" id="english-flag" class="flag">
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
         <main>
+
             <div id="rectanguloGrande">
                 <h2 id="versionJuego" data-translate="versionJuego">En desarrollo</h2>
                 <!-- Credit to: https://uiverse.io/Yaya12085/old-lionfish-77 -->
@@ -50,8 +56,7 @@
                     <img src="multimedia/images/fondoParaMinijuegos.png" alt="Ejemplo">
                     <div class="content-text">
                         <h3 data-translate="minigames" class="content-title">Minijuegos</h3>
-                        <p data-translate="text1Minigames">En medio del juego encontrarás minijuegos conocidos y entretenidos,</p>
-                        <p data-translate="text2Minigames">con los que podrás ganar recompensas o pasar un buen rato.</p>
+                        <p data-translate="text1Minigames">En medio del juego encontrarás minijuegos conocidos y entretenidos, con los que podrás ganar recompensas o pasar un buen rato.</p>
                     </div>
                 </div>
                 <hr class="separateCategories">
@@ -66,7 +71,6 @@
                 <hr class="separateCategories">
                 
                 <h3 data-translate="hechoCon" class="retroFont">Hecho con</h3>
-
                 <div id="hechoConDiv" class="image-container">
                     <div class="image-item">
                         <img src="multimedia/images/logoCSharp2.png" alt="C# Logo" class="image">
