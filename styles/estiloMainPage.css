@@ -417,7 +417,7 @@ footer hr {
     color: black !important;
 }
 
-#redesSocialesFooter a {
+#redesSocialesFooter a:-webkit-any-link {
     color: black;
 }
 
