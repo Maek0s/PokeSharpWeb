@@ -52,6 +52,11 @@ a {
     color: black;
 }
 
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 body {
     overflow-x: hidden;
 }
