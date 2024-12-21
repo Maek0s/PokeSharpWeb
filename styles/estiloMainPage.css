@@ -47,6 +47,10 @@
     font-family: Fredoka;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -404,7 +408,7 @@ footer hr {
     margin-right: 10px;
     font-size: 25px;
     margin-bottom: 10px;
-    color: black;
+    color: black !important;
 }
 
 #redesSocialesFooter i:hover {
