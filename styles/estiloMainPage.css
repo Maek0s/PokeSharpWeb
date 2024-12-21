@@ -49,6 +49,7 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 body {
@@ -406,9 +407,13 @@ footer hr {
 
 #redesSocialesFooter i {
     margin-right: 10px;
-    font-size: 25px;
+    font-size: 25px !important;
     margin-bottom: 10px;
     color: black !important;
+}
+
+#redesSocialesFooter a {
+    color: black;
 }
 
 #redesSocialesFooter i:hover {
