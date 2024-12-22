@@ -44,8 +44,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Fredoka !important;
+    font-family: Fredoka;
 }
+
 
 a {
     text-decoration: none;
@@ -520,8 +521,9 @@ footer hr {
         gap: 1rem !important;
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
-        padding: 0;
+        margin-top: 0px;
+        padding-top: 55px;
+        padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -533,16 +535,56 @@ footer hr {
 
     nav li {
         font-size: 13px;
-        margin-right: 0;
+        margin-right: 4px;
+        margin-top: 2px;
+        margin-bottom: 2px;
     }
 
     .content-section {
         flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .content-section img {
+        order: -1; /* Intercambia el orden dentro de un contenedor */
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .content-section.reverse {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-section.reverse img {
+        order: -1;
+        margin-bottom: 10px;
+    }
+
+    .content-section.reverse .content-text {
+        margin-right: 0;
         text-align: center;
     }
 
-    div.video iframe {
+    .video {
+        width: 90%;
+        max-width: 680px;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 16 / 9;
+    }
+    
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100%;
+        border: none;
+        padding: 15px;
     }
 
     .content-section img {
@@ -560,6 +602,11 @@ footer hr {
 
     #versionJuego {
         font-size: 2rem;
+    }
+
+    hr.separateCategories {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 

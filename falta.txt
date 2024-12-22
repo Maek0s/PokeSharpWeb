@@ -1,1 +1,2 @@
-- Hacerlo compatible con Movil, que el logo suba arriba y el nav abajo y bajar su tamaño
+- Hacer que la imagen de npcs unicos se vea arriba
+- arreglar iconos
