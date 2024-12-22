@@ -587,6 +587,10 @@ footer hr {
         padding: 15px;
     }
 
+    footer p {
+        margin: 10px
+    }
+
     .content-section img {
         margin-right: 0;
         margin-bottom: 20px;
