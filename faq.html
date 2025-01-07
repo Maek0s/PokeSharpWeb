@@ -10,7 +10,15 @@
         <link rel="icon" href="multimedia/images/pokeSharpLogoProvisional.png" type="image/png">
         <title data-translate="title">PokeSharp - Inicio</title>
     </head>
+    <script>
+        // Detecta si la URL no tiene extensión y redirige a la versión con `.html`
+        const path = window.location.pathname;
+        if (path !== '/' && !path.includes('.') && !path.endsWith('/')) {
+            window.location.href = `${path}.html`;
+        }
+    </script>
     <body>
+        
         <header>
             <div id="header-container">
                 <div id="logo-container">

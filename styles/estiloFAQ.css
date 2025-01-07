@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 50vh;
+    height: 35vh;
     background-color: #5F85C4;
 }
 
@@ -14,5 +14,5 @@
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2em;
-    justify-content: center;
+    text-align: center;
 }

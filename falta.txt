@@ -1,2 +1,2 @@
-- Hacer que la imagen de npcs unicos se vea arriba
-- arreglar iconos
+- Hacer que el <nav> no se vea transparente hasta que bajes un poco
+- Cambiar foto a NPCs únicos.
