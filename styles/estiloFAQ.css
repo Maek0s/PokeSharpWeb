@@ -1,6 +1,6 @@
 /* Reglas generales*/
 
-/* ver si el nav es aqui quitar el transparente o ns*/
+/* ver si el nav es aqui quitar el transparente o algo similar */
 
 /* First page */
 
@@ -26,12 +26,23 @@
 /* Second page */
 
 #secondPage {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+}
+
+#secondPage div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 #secondPage h2 {
-    margin-left: 14%;
+    margin-left: 13.5%;
     margin-bottom: 10px;
     margin-top: 15px;
 }
@@ -40,10 +51,20 @@
     margin-left: 15%;
 }
 
+#secondPage img {
+    max-width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 60px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
 #secondPage a {
     color: #9C75D5;
     text-decoration: none;
     font-weight: bold;
 }
+
 
 /* Third page */
