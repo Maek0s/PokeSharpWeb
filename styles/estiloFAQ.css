@@ -1,3 +1,9 @@
+/* Reglas generales*/
+
+/* ver si el nav es aqui quitar el transparente o ns*/
+
+/* First page */
+
 #firstPage {
     position: relative;
     top: 0;
@@ -13,6 +19,31 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
 }
+
+/* Second page */
+
+#secondPage {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#secondPage h2 {
+    margin-left: 14%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#secondPage p {
+    margin-left: 15%;
+}
+
+#secondPage a {
+    color: #9C75D5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Third page */
