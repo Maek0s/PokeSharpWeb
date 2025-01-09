@@ -1,2 +1,4 @@
 - Hacer que el <nav> no se vea transparente hasta que bajes un poco
 - Cambiar foto a NPCs únicos.
+- FAQ responsive
+- Cambiar el color del h2, muy intenso

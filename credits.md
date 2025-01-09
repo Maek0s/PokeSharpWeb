@@ -5,12 +5,14 @@
 ## Imágenes utilizadas
 
 <b>(MainPage) Fondo Eevee</b> <br>
-Creditos a: robokoboto <br>
+Creditos al artista: robokoboto <br>
 [Su perfil](https://alphacoders.com/users/profile/69089/robokoboto) <br>
 [Imagen en web](https://wall.alphacoders.com/big.php?i=1351785)
 
 <b>(MainPage) Imagen Minijuegos </b> <br>
-(Por buscar)
+Creditos por encontrarla: ajak60 <br>
+[Su perfil](https://alphacoders.com/users/profile/24245/ajak60)
+[Imagen en web](https://wall.alphacoders.com/big.php?i=603479)
 
 ## Contenido externo utilizado
 
