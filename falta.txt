@@ -2,3 +2,5 @@
 - Cambiar foto a NPCs únicos.
 - FAQ responsive
 - Cambiar el color del h2, muy intenso
+
+- Apartado de Descargas que te suba a la mainpage y te salga algo que indique el botón de Descargar
