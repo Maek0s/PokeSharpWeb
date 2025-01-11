@@ -1,6 +1,6 @@
 - Hacer que el <nav> no se vea transparente hasta que bajes un poco
 - Cambiar foto a NPCs únicos.
-- FAQ responsive
+- FAQ, Actualizaciones, socialMedia, 404.html responsive
 - Cambiar el color del h2, muy intenso
 - cambiar imagen para que se vea mas pequeño con el max-height
 
