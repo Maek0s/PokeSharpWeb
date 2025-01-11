@@ -18,7 +18,7 @@ Creditos por encontrarla: ajak60 <br>
 
 ### Font Awesome
 - Los iconos de redes sociales <br>
-- Kit utilizado gratuito: [Kit utilizado](https://kit.fontawesome.com/15d8dc6e81.js)
+- Kit utilizado gratuito: [Kit utilizado](https://fontawesome.com/kits/15d8dc6e81/icons)
 
 ### Botón de "Play it"
 
