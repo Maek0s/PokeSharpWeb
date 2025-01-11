@@ -22,6 +22,7 @@ document.getElementById('english-flag').addEventListener('click', function() {
 
 // Función para cargar el archivo JSON del idioma
 async function loadTranslations(language) {
+    // Esto hace que solo se base en las traducciones súbidas a GitHub, para evitar problemas.
     const response = await fetch(`https://raw.githubusercontent.com/Maek0s/PokeSharpWeb/main/traducciones/${language}.json`);
 
     console.log(`../traducciones/${language}.json`);

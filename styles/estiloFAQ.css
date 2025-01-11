@@ -26,6 +26,7 @@
 /* Second page */
 
 #secondPage {
+    background-color: #f3e6fa;
     display: flex;
     flex-direction: row;
     align-items: flex-start;

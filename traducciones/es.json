@@ -17,5 +17,35 @@
     "text1Minigames": "En medio del juego encontrarás minijuegos conocidos y entretenidos, con los que podrás ganar recompensas o pasar un buen rato.",
     "hechoCon": "Hecho con",
     "pPropiedadFooter": "Todas las texturas, imágenes y otros activos utilizados pertenecen a sus respectivos propietarios.",
-    "pAfiliadoFooter": "PokeSharp no está afiliado ni a Nintendo, Game Freak, ni a The Pokémon Company."
+    "pAfiliadoFooter": "PokeSharp no está afiliado ni a Nintendo, Game Freak, ni a The Pokémon Company.",
+
+    
+    "faq1": "1. ¿Cómo puedo jugarlo?",
+    "faq1P1": "Puedes jugarlo, en un principio en PC, próximamente podría salir en móvil.",
+    "faq1P2": "El enlace de descarga es: Pendiente.",
+    "faq2": "2. ¿Qué es PokeSharp?",
+    "faq2P1": "PokeSharp es un juego fangame de Pokémon, desarrollado por una única persona,",
+    "faq2P2": "con el propósito de crear un juego muy distinto a los fangames de Pokémon y sea innovador y divertido.",
+    "faq3": "3. ¿Cuándo estará disponible oficialmente?",
+    "faq3P1": "PokeSharp aún está en desarrollo, por lo que no hay una fecha de lanzamiento oficial.",
+    "faq3P2": "Puedes seguir el progreso en el servidor de Discord.",
+    "faq4": "4. ¿Por qué se creó PokeSharp?",
+    "faq4P1": "PokeSharp tuvo muchas antiguas facetas, fueron intentos de hacer un juego sobre Pokémon como fuera posible,",
+    "faq4P2": "pero al final terminó siendo un proyecto de final de curso para el grado superior DAM.",
+    "faq5": "5. ¿Cómo surgió la idea?",
+    "faq5P1": "La idea se creó 1 año antes de su creación, por una persona distinta al creador, fue Izan, mi compañero de clase,",
+    "faq5P2": "el cual intentó hacer algo por terminal con Java, y decidí preguntarle a unirme a su proyecto, yo me encargue de",
+    "faq5P3": "las interfaces, pero al final no se pudo por conocimiento y falta de tiempo, y 1 año después apareció que teníamos que",
+    "faq5P4": "hacer un proyecto individualmente, y decidí preguntarle si podía seguir empezando desde 0 de otra forma, obtuve el permiso,",
+    "faq5P5": "cambié el nombre de PokeJava a PokeSharp, ya que antes se planteó en hacer en Java y... aquí estamos.",
+    "faq6": "6. ¿De dónde viene el nombre de PokeSharp?",
+    "faq6P1": "El nombre de PokeSharp viene de su nombre antiguo PokeJava, que sugerí en su momento y finalmente al",
+    "faq6P2": "cambiar de lenguaje de programación, decidí cambiar el nombre a PokeSharp, ya que me gustó más.",
+    "faq7": "7. ¿Qué se necesita para jugar?",
+    "faq7P1": "Los requisitos mínimos y recomendados están pendientes pero debería ser bastante accesible.",
+    "faq8": "8. ¿Puedo colaborar?",
+    "faq8P1": "Por el momento no es posible, en un futuro si sigue el proyecto podría ser una opción.",
+    "faq8P2": "Cualquier tipo de sugerencia/bug se agradece siempre si quieres intentar ayudar ^^"
+    
+      
 }
