@@ -1,4 +1,5 @@
 - Hacer que el <nav> no se vea transparente hasta que bajes un poco
+- El 404.html las URLs deben ser absolutas sino da error porque no accede al CSS.
 - Cambiar foto a NPCs únicos.
 - FAQ, Actualizaciones, socialMedia, 404.html responsive
 - Cambiar el color del h2, muy intenso
