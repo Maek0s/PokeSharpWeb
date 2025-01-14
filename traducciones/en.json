@@ -19,6 +19,7 @@
     "pPropiedadFooter": "All textures, images, and other assets used belong to their respective owners.",
     "pAfiliadoFooter": "PokeSharp is not affiliated with Nintendo, Game Freak, or The Pokémon Company.",
 
+    "faqTitle": "Frequently Asked Questions",
     "faq1": "1. How can I play it?",
     "faq1P1": "You can play it initially on PC, and it might be available on mobile soon.",
     "faq1P2": "The download link is: Pending.",
@@ -44,5 +45,9 @@
     "faq7P1": "The minimum and recommended requirements are pending but should be quite accessible.",
     "faq8": "8. Can I collaborate?",
     "faq8P1": "At the moment, it's not possible. In the future, if the project continues, it might be an option.",
-    "faq8P2": "Any kind of suggestion or bug report is always appreciated if you'd like to help ^^"
+    "faq8P2": "Any kind of suggestion or bug report is always appreciated if you'd like to help ^^",
+
+    "updatesTitle": "Updates",
+    "lastVersion": "Last version",
+    "latestVersions": "Latest versions"
 }
