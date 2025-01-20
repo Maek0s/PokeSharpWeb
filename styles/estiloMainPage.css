@@ -1,3 +1,9 @@
+/* pruebas */
+
+/* PONER TRANSPARENTE DEL TODO A VER*/
+.color-rojo {
+  }
+
 /* Tipos de letra */
 
 @font-face {
@@ -369,6 +375,8 @@ h3 {
     height: auto;
     cursor: pointer;
 }
+
+/* Ajuste especial a Supabase logo */
 
 /* Tooltip (texto que aparece al pasar el cursor) */
 .tooltip {
