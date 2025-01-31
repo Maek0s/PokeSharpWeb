@@ -88,8 +88,8 @@ details:hover,details[open] {
 
 @media (max-width: 768px) {
 
-    #firstPage h1 { 
-        font-size: 2.5rem;
+    #firstPage h1 {
+        font-size: 2rem;
     }
 
     #firstPage {

@@ -526,7 +526,7 @@ footer hr {
 
     nav {
         display: flex;
-        gap: 1rem !important;
+        gap: 0.5rem !important;
         flex-direction: column;
         align-items: center;
         margin-top: 0px;
@@ -602,6 +602,12 @@ footer hr {
     .content-section img {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .image-container img {
+        width: 90%;
+        margin-right: -5px;
+        margin-bottom: 0px;
     }
 
     .content-text {
