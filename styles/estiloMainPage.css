@@ -1,31 +1,8 @@
-/* pruebas */
-
-/* PONER TRANSPARENTE DEL TODO A VER*/
-.color-rojo {
-  }
-
 /* Tipos de letra */
 
 @font-face {
     font-family: PokemonGB;
     src: url(../fonts/PokemonGBChanged.ttf);
-}
-
-@font-face {
-    font-family: PokemonEmeraldLatin;
-    src: url(../fonts/PokemonEmeraldLatin.ttf);
-}
-
-/* Font oficial Pokemon en negro */
-@font-face {
-    font-family: PokemonSolid;
-    src: url(../fonts/Pokemon_Solid.ttf);
-}
-
-/* Font oficial Pokemon en blanco */
-@font-face {
-    font-family: PokemonHollow;
-    src: url(../fonts/Pokemon_Hollow.ttf);
 }
 
 @font-face {
@@ -280,6 +257,10 @@ nav li a {
     border-radius: 15px;
 }
 
+#segundoRectangulo h2:first-of-type {
+    padding-bottom: 10px;
+}
+
 #segundoRectangulo h2 {
     color: white;
     padding-top: 30px;
@@ -489,39 +470,39 @@ footer hr {
     cursor: pointer;
   }
   
-  .button svg {
+.button svg {
     width: 25px;
     height: 25px;
-  }
-  
-  .button svg path {
+}
+
+.button svg path {
     fill: white
-  }
-  
-  .button span {
+}
+
+.button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.4s;
-  }
-  
-  .button span:after {
+}
+
+.button span:after {
     content: 'for free';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.7s;
-  }
-  
-  .button:hover span {
+}
+
+.button:hover span {
     padding-right: 3.80em;
-  }
-  
-  .button:hover span:after {
+}
+
+.button:hover span:after {
     opacity: 4;
     right: 0;
-  }
+}
 
 /*  //////////////////////////////////////////////////////////////////////// */
 
