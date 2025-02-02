@@ -50,7 +50,7 @@ async function setLanguage(language) {
     });
 
     // Cambiar el título del documento
-    document.title = translations['title'];
+    document.title = translations['title' + capitalizeFirstLetter(currentLanguage)];
 }
 
 // Cambio de banderas visualmente
