@@ -2,7 +2,7 @@
 async function loadVersions(language) {
     // Cargar el archivo JSON de versiones
     try {
-        const response = await fetch('/scripts/jsons/versions.json');  // Ruta al archivo JSON
+        const response = await fetch('/PokeSharpWeb/scripts/jsons/versions.json');  // Ruta al archivo JSON
         if (!response.ok) {
             throw new Error(`Error al cargar el archivo JSON: ${response.statusText}`);
         }
