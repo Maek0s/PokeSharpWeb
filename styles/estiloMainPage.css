@@ -286,7 +286,7 @@ nav li a {
     margin-bottom: 20px;
     font-family: PokemonGB !important;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 40px;
     margin: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -633,6 +633,10 @@ footer hr {
         width: 100% !important;
     }
 
+    #segundoRectangulo h2 {
+        font-size: 4vh;
+    }
+
     #rectanguloGrande, #segundoRectangulo {
         width: 100vw;
         padding: 0 10px;
@@ -695,8 +699,8 @@ footer hr {
         padding: 0px !important;
     }
 
-    .segundoRectangulo h2 {
-        font-size: 5vw;
+    #segundoRectangulo h2 {
+        font-size: 3vh;
     }
 
     .hecho-con img {
