@@ -99,7 +99,8 @@
     #secondPage img {
         margin-left: 0;
         margin-right: 0;
-        align-self: center;
+        width: 100%;
+        max-width: 100%;
         margin-top: 20px;
     }
 }
