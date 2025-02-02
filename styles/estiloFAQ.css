@@ -93,13 +93,13 @@
     }
 
     #secondPage {
-        flex-direction: column;  /* Coloca los elementos en columna en móviles */
+        flex-direction: column;
     }
 
     #secondPage img {
-        margin-left: 0;  /* Elimina márgenes laterales para centrar la imagen */
+        margin-left: 0;
         margin-right: 0;
-        align-self: center;  /* Asegura que la imagen se centre */
-        margin-top: 20px;  /* Opcional, agrega espacio superior para separación */
+        align-self: center;
+        margin-top: 20px;
     }
 }
