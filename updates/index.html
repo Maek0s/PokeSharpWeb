@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../styles/estiloUpdates.css">
         <script src="https://kit.fontawesome.com/15d8dc6e81.js" crossorigin="anonymous"></script>
         <link rel="icon" href="../multimedia/images/logoProvisionalPokeSharp.png" type="image/png">
-        <title data-translate="title">PokeSharp - Actualizaciones</title>
+        <title data-translate="titleUpdates">PokeSharp - Actualizaciones</title>
     </head>
     <body>
         <header>
@@ -38,7 +38,8 @@
         <!-- Esto será de forma dinámica -->
         <div id="secondPage">
             <h2 data-translate="lastVersion">Última versión</h2>
-            <div class="update">
+            <div id="latest-version-container"></div>
+            <!--<div class="update">
                 <details>
                     <summary>
                         <span>v0.0.1 - En desarrollo</span>
@@ -46,10 +47,11 @@
                     </summary>
                     <p>Actualmente se está trabajando en la primera versión del juego.</p>
                 </details>
-            </div>
+            </div>-->
 
             <h2 data-translate="latestVersions">Versiones anteriores</h2>
-            <div class="update">
+            <div id="previous-versions-container"></div>
+            <!--<div class="update">
                 <details>
                     <summary>
                         <span>v0.0.0 - Pre-Alpha</span>
@@ -67,11 +69,12 @@
                     </summary>
                     <p>No existe esta versión todavia.</p>
                 </details>
-            </div>
+            </div>-->
         </div>
 
         <!-- Scripts -->
         <script src="../scripts/scriptTraducciones.js" defer></script>
         <script src="../scripts/scriptOtros.js" defer></script>
+        <script src="../scripts/scriptUpdates.js" defer></script>
     </body>
 </html>

@@ -1,5 +1,9 @@
 {
-    "title": "PokeSharp - Inicio",
+    "titleHome": "PokeSharp - Home",
+    "titleUpdates": "PokeSharp - Updates",
+    "titleFAQ": "PokeSharp - FAQ",
+    "titleNotFound": "PokeSharp - Page not found",
+    
     "descargarNav": "Descargar",
     "versionesNav": "Actualizaciones",
     "discordNav": "Discord",
