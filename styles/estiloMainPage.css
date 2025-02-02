@@ -675,13 +675,18 @@ footer hr {
         visibility: hidden;
     }
 
-    * {
-        border: 1px solid black;
+    nav li {
+        margin: 0 !important;  /* Asegúrate de que no haya márgenes no deseados */
+        padding-top: 10px !important;
+        padding-left: 5px !important;
     }
 
-    a {
-        border: 1px solid blue;
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 1000 !important;
     }
+
 
     nav li a {
         position: relative;
