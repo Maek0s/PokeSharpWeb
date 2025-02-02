@@ -375,7 +375,7 @@ h3 {
 /* Estilos para la imagen y el contenedor */
 .image-container {
     display: flex;
-    gap: 20px;
+    gap: 0px;
 }
 
 /* Contenedor individual de cada imagen y su tooltip */
@@ -649,6 +649,26 @@ footer hr {
 
     .hecho-con img {
         width: 100px;
+    }
+
+    body {
+        background-color: #0056b3;
+    }
+
+    .tooltip {
+        visibility: hidden;
+        position: absolute;
+        top: -40px;
+        left: 10%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 0px !important;
+        border-radius: 5px;
+        font-size: 5px;
+    }
+
+    .image-item:hover .tooltip {
+        visibility: hidden;
     }
 }
 
