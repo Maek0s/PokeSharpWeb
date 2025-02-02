@@ -674,6 +674,19 @@ footer hr {
     .image-item:hover .tooltip {
         visibility: hidden;
     }
+
+    * {
+        border: 1px solid black;
+    }
+
+    a {
+        border: 1px solid blue;
+    }
+
+    nav li a {
+        position: relative;
+        z-index: 1;
+    }
 }
 
 /* Ajustes para 360x740 */
