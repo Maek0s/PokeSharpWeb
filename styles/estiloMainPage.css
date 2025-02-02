@@ -286,7 +286,8 @@ nav li a {
     margin-bottom: 20px;
     font-family: PokemonGB !important;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 7vw;
+    margin: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -355,6 +356,20 @@ h3 {
     gap: 30px;
     justify-content: center;
     align-items: center;
+}
+
+.hecho-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.hecho-con img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
 }
 
 /* Estilos para la imagen y el contenedor */
@@ -555,7 +570,7 @@ footer hr {
     }
 
     .content-section img {
-        order: -1; /* Intercambia el orden dentro de un contenedor */
+        order: -1;
         margin-bottom: 10px;
         width: 100%;
         max-width: 350px;
@@ -618,6 +633,11 @@ footer hr {
         width: 100% !important;
     }
 
+    #rectanguloGrande, #segundoRectangulo {
+        width: 100vw;
+        padding: 0 10px;
+    }
+
     #versionJuego {
         font-size: 2rem;
     }
@@ -625,6 +645,10 @@ footer hr {
     hr.separateCategories {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .hecho-con img {
+        width: 100px;
     }
 }
 
@@ -646,6 +670,16 @@ footer hr {
     }
 
     #segundoRectangulo {
-        padding: 20px 10px;
+        width: 100vw !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .segundoRectangulo h2 {
+        font-size: 5vw;
+    }
+
+    .hecho-con img {
+        width: 80px;
     }
 }
