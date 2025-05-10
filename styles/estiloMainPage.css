@@ -6,23 +6,6 @@
 }
 
 @font-face {
-    font-family: PokemonEmeraldLatin;
-    src: url(../fonts/PokemonEmeraldLatin.ttf);
-}
-
-/* Font oficial Pokemon en negro */
-@font-face {
-    font-family: PokemonSolid;
-    src: url(../fonts/Pokemon_Solid.ttf);
-}
-
-/* Font oficial Pokemon en blanco */
-@font-face {
-    font-family: PokemonHollow;
-    src: url(../fonts/Pokemon_Hollow.ttf);
-}
-
-@font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto-Medium.ttf);
 }
@@ -274,13 +257,18 @@ nav li a {
     border-radius: 15px;
 }
 
+#segundoRectangulo h2:first-of-type {
+    padding-bottom: 10px;
+}
+
 #segundoRectangulo h2 {
     color: white;
     padding-top: 30px;
     margin-bottom: 20px;
     font-family: PokemonGB !important;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
+    margin: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -351,10 +339,24 @@ h3 {
     align-items: center;
 }
 
+.hecho-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.hecho-con img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+}
+
 /* Estilos para la imagen y el contenedor */
 .image-container {
     display: flex;
-    gap: 20px;
+    gap: 0px;
 }
 
 /* Contenedor individual de cada imagen y su tooltip */
@@ -369,6 +371,8 @@ h3 {
     height: auto;
     cursor: pointer;
 }
+
+/* Ajuste especial a Supabase logo */
 
 /* Tooltip (texto que aparece al pasar el cursor) */
 .tooltip {
@@ -466,39 +470,39 @@ footer hr {
     cursor: pointer;
   }
   
-  .button svg {
+.button svg {
     width: 25px;
     height: 25px;
-  }
-  
-  .button svg path {
+}
+
+.button svg path {
     fill: white
-  }
-  
-  .button span {
+}
+
+.button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.4s;
-  }
-  
-  .button span:after {
+}
+
+.button span:after {
     content: 'for free';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.7s;
-  }
-  
-  .button:hover span {
+}
+
+.button:hover span {
     padding-right: 3.80em;
-  }
-  
-  .button:hover span:after {
+}
+
+.button:hover span:after {
     opacity: 4;
     right: 0;
-  }
+}
 
 /*  //////////////////////////////////////////////////////////////////////// */
 
@@ -518,7 +522,7 @@ footer hr {
 
     nav {
         display: flex;
-        gap: 1rem !important;
+        gap: 0.5rem !important;
         flex-direction: column;
         align-items: center;
         margin-top: 0px;
@@ -547,7 +551,7 @@ footer hr {
     }
 
     .content-section img {
-        order: -1; /* Intercambia el orden dentro de un contenedor */
+        order: -1;
         margin-bottom: 10px;
         width: 100%;
         max-width: 350px;
@@ -596,12 +600,27 @@ footer hr {
         margin-bottom: 20px;
     }
 
+    .image-container img {
+        width: 90%;
+        margin-right: -5px;
+        margin-bottom: 0px;
+    }
+
     .content-text {
         margin-right: 0;
     }
 
     #segundoRectangulo {
         width: 100% !important;
+    }
+
+    #segundoRectangulo h2 {
+        font-size: 4vh;
+    }
+
+    #rectanguloGrande, #segundoRectangulo {
+        width: 100vw;
+        padding: 0 10px;
     }
 
     #versionJuego {
@@ -611,6 +630,47 @@ footer hr {
     hr.separateCategories {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .hecho-con img {
+        width: 100px;
+    }
+
+    body {
+        background-color: #0056b3;
+    }
+
+    .tooltip {
+        visibility: hidden;
+        position: absolute;
+        top: -40px;
+        left: 10%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 0px !important;
+        border-radius: 5px;
+        font-size: 5px;
+    }
+
+    .image-item:hover .tooltip {
+        visibility: hidden;
+    }
+
+    nav li {
+        margin: 0 !important;  /* Asegúrate de que no haya márgenes no deseados */
+        padding-top: 10px !important;
+        padding-left: 5px !important;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 1000 !important;
+    }
+
+    nav li a {
+        position: relative;
+        z-index: 1;
     }
 }
 
@@ -632,6 +692,16 @@ footer hr {
     }
 
     #segundoRectangulo {
-        padding: 20px 10px;
+        width: 100vw !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    #segundoRectangulo h2 {
+        font-size: 3vh;
+    }
+
+    .hecho-con img {
+        width: 80px;
     }
 }

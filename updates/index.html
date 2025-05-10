@@ -7,21 +7,20 @@
         <link rel="stylesheet" href="../styles/estiloMainPage.css">
         <link rel="stylesheet" href="../styles/estiloUpdates.css">
         <script src="https://kit.fontawesome.com/15d8dc6e81.js" crossorigin="anonymous"></script>
-        <link rel="icon" href="../multimedia/images/pokeSharpLogoProvisional.png" type="image/png">
-        <title data-translate="title">PokeSharp - Actualizaciones</title>
+        <link rel="icon" href="../multimedia/images/logoProvisionalPokeSharp.png" type="image/png">
+        <title data-translate="titleUpdates">PokeSharp - Actualizaciones</title>
     </head>
     <body>
         <header>
             <div id="header-container">
                 <div id="logo-container">
-                    <a href="../"> <img src="../multimedia/images/pokeSharpLogoProvisional.png" alt="Logo PokeSharp" id="logoNormal"> </a>
+                    <img src="../multimedia/images/logoProvisionalPokeSharp.png" alt="Logo PokeSharp" id="logoNormal" onclick="window.location.href='../';">
                 </div>
                 <nav>
                     <ul>
                         <li id="descargas"> <a data-translate="descargarNav" href="../">Descargar</a> </li>
-                        <li id="notasParche"> <a data-translate="versionesNav" href="">Actualizaciones</a> </li>
+                        <li id="notasParche"> <a data-translate="versionesNav" href="../updates/">Actualizaciones</a> </li>
                         <li id="discord"> <a data-translate="discordNav" href="https://discord.gg/FqJ6ZgYRrU" target="_blank" rel="noopener noreferrer">Discord</a> </li>
-                        <li id="redesSociales"> <a data-translate="redesNav" href="../socialMedia/">Redes</a> </li>
                         <li id="faq"> <a data-translate="faqNav" href="../faq/">FAQ</a> </li>
                         <li>
                             <img src="../multimedia/images/banderaEspanya.png" alt="Español" id="spanish-flag" class="flag">
@@ -38,8 +37,9 @@
 
         <!-- Esto será de forma dinámica -->
         <div id="secondPage">
-            <h2>Última versión</h2>
-            <div class="update">
+            <h2 data-translate="lastVersion">Última versión</h2>
+            <div id="latest-version-container"></div>
+            <!--<div class="update">
                 <details>
                     <summary>
                         <span>v1.0.0alpha - Released</span>
@@ -59,7 +59,7 @@
                         </a>
                     </div>
                 </details>
-            </div>
+            </div>-->
 
             <h2>Versiones anteriores</h2>
 <!--            <div class="update">
@@ -86,5 +86,6 @@
         <!-- Scripts -->
         <script src="../scripts/scriptTraducciones.js" defer></script>
         <script src="../scripts/scriptOtros.js" defer></script>
+        <script src="../scripts/scriptUpdates.js" defer></script>
     </body>
 </html>

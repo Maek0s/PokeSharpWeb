@@ -1,7 +1,8 @@
+- (MainPage) Arreglar traducción por lo de NPCs unicos etc
 - Hacer que el <nav> no se vea transparente hasta que bajes un poco
-- Cambiar foto a NPCs únicos.
-- FAQ, Actualizaciones, socialMedia, 404.html responsive
+- Arreglar lineas de FAQ
+- Actualizaciones, socialMedia, 404.html responsive
 - Cambiar el color del h2, muy intenso
-- cambiar imagen para que se vea mas pequeño con el max-height
-
+- Cambiar imagen para que se vea mas pequeño con el max-height
 - Apartado de Descargas que te suba a la mainpage y te salga algo que indique el botón de Descargar
+- hacer nav mas pequeño para responsive, cambiando su tamaño

@@ -1,5 +1,9 @@
 {
-    "title": "PokeSharp - Inicio",
+    "titleHome": "PokeSharp - Inicio",
+    "titleUpdates": "PokeSharp - Actualizaciones",
+    "titleFAQ": "PokeSharp - FAQ",
+    "titleNotFound": "PokeSharp - Página no encontrada",
+
     "descargarNav": "Descargar",
     "versionesNav": "Actualizaciones",
     "discordNav": "Discord",
@@ -19,7 +23,7 @@
     "pPropiedadFooter": "Todas las texturas, imágenes y otros activos utilizados pertenecen a sus respectivos propietarios.",
     "pAfiliadoFooter": "PokeSharp no está afiliado ni a Nintendo, Game Freak, ni a The Pokémon Company.",
 
-    
+    "faqTitle": "Preguntas frecuentes",
     "faq1": "1. ¿Cómo puedo jugarlo?",
     "faq1P1": "Puedes jugarlo, en un principio en PC, próximamente podría salir en móvil. El enlace de descarga es: Pendiente.",
     "faq2": "2. ¿Qué es PokeSharp?",
@@ -35,7 +39,9 @@
     "faq7": "7. ¿Qué se necesita para jugar?",
     "faq7P1": "Los requisitos mínimos y recomendados están pendientes pero debería ser bastante accesible.",
     "faq8": "8. ¿Puedo colaborar?",
-    "faq8P1": "Por el momento no es posible, en un futuro si sigue el proyecto podría ser una opción. Cualquier tipo de sugerencia/bug se agradece siempre si quieres intentar ayudar ^^."
+    "faq8P1": "Por el momento no es posible, en un futuro si sigue el proyecto podría ser una opción. Cualquier tipo de sugerencia/bug se agradece siempre si quieres intentar ayudar ^^.",
     
-      
+    "updatesTitle": "Actualizaciones",
+    "lastVersion": "Última versión",
+    "latestVersions": "Últimas versiones"
 }

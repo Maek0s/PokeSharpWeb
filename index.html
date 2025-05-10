@@ -6,24 +6,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="styles/estiloMainPage.css">
         <script src="https://kit.fontawesome.com/15d8dc6e81.js" crossorigin="anonymous"></script>
-        <link rel="icon" href="multimedia/images/pokeSharpLogoProvisional.png" type="image/png">
-        <title data-translate="title">PokeSharp - Inicio</title>
+        <link rel="icon" href="multimedia/images/logoProvisionalPokeSharp.png" type="image/png">
+        <title data-translate="titleHome">PokeSharp - Inicio</title>
     </head>
     <body>
         <header>
             <div id="header-container">
                 <div id="logo-container">
-                    <!-- Aqui hay un error, se baja un poco y no se centra bien con el atributo <a> -->
-                    <a href=""> <img src="multimedia/images/pokeSharpLogoProvisional.png" alt="Logo PokeSharp" id="logoNormal"> </a>
+                    <img src="multimedia/images/logoProvisionalPokeSharp.png" alt="Logo PokeSharp" id="logoNormal" onclick="window.location.href='';">
                 </div>
 
                 <nav>
                     <ul>
-                        <li id="descargas"> <a data-translate="descargarNav" href="">Descargar</a> </li>
-                        <li id="notasParche"> <a data-translate="versionesNav" href="updates">Actualizaciones</a> </li>
-                        <li id="discord"> <a data-translate="discordNav" href="https://discord.gg/FqJ6ZgYRrU" target="_blank" rel="noopener noreferrer">Discord</a> </li>
-                        <li id="redesSociales"> <a data-translate="redesNav" href="socialMedia">Redes</a> </li>
-                        <li id="faq"> <a data-translate="faqNav" href="faq">FAQ</a> </li>
+                        <li id="descargas"><a data-translate="descargarNav" href="">Descargar</a> </li>
+                        <li id="notasParche"><a data-translate="versionesNav" href="updates">Actualizaciones</a></li>
+                        <li id="discord"><a data-translate="discordNav" href="https://discord.gg/FqJ6ZgYRrU" target="_blank" rel="noopener noreferrer">Discord</a> </li>
+                        <li id="faq"><a data-translate="faqNav" href="faq">FAQ</a></li>
                         <li>
                             <img src="multimedia/images/banderaEspanya.png" alt="Español" id="spanish-flag" class="flag">
                             <img src="multimedia/images/banderaUnitedStates.png" alt="English" id="english-flag" class="flag">
@@ -44,8 +42,8 @@
             </div>
             <div id="segundoRectangulo">
                 <h2 data-translate="queEs">¿Qué es PokeSharp?</h2>
-                <p data-translate="queEsP1">Es un juego fangame de Pokémon con una aventura única ¿A qué esperas?</p>
-                <p data-translate="queEsP2">Historia, pokémons únicos y NPCs únicos y entretenidos.</p>
+                <p data-translate="queEsP1">Es un juego fangame de Pokémon con una aventura única.</p>
+                <p data-translate="queEsP2">Historia, pokémons únicos y NPCs nuevos. ¿A qué esperas?</p>
                 <p><i>(Este vídeo es de prueba)</i></p>
                 <div class="video">
                     <!-- AQUI TIENE QUE IR EL TRAILER DEL JUEGO, EL VIDEO QUE SE MUESTRA ES DE PRUEBA -->
@@ -57,37 +55,39 @@
                         <h3 data-translate="minigames" class="content-title">Minijuegos</h3>
                         <p data-translate="text1Minigames">En medio del juego encontrarás minijuegos conocidos y entretenidos, con los que podrás ganar recompensas o pasar un buen rato.</p>
                     </div>
-                    <img src="multimedia/images/fondoParaMinijuegos.png" alt="Minijuegos in-game">
+                    <img src="multimedia/images/imagenMinijuegos.png" alt="Minijuegos in-game">
                 </div>
                 <hr class="separateCategories">
                 <div class="content-section reves">
                     <img src="multimedia/images/imagenNPCs.png" alt="NPCs únicos" class="content-image">
                     <div class="content-text">
-                        <h3 data-translate="uniqueNpcs" class="content-title">NPCs únicos</h3>
-                        <p data-translate="textNpcs">Encontrarás NPCs a lo largo de tu aventura, completamente nuevos, personas reales con guiños a cosas relacionadas con esa persona en la vida real.</p>
+                        <h3 data-translate="uniqueNpcs" class="content-title">NPCs nuevos</h3>
+                        <p data-translate="textNpcs">Encontrarás NPCs a lo largo de tu aventura, completamente originales, personas reales con guiños a cosas relacionadas con esa persona en la vida real.</p>
                     </div>
                 </div>
                 <!-- pokemons unicos? -->
                 <hr class="separateCategories">
-                
                 <h3 data-translate="hechoCon" class="retroFont">Hecho con</h3>
                 <div id="hechoConDiv" class="image-container">
                     <div class="image-item">
-                        <img src="multimedia/images/logoCSharp2.png" alt="C# Logo" class="image">
+                        <img src="multimedia/images/logoCSharp.png" alt="CSharp Logo" class="image">
                         <div class="tooltip">C#</div>
                     </div>
                     <div class="image-item">
-                        <img src="multimedia/images/godotEngineLogo.png" alt="Godot Engine Logo" class="image">
+                        <img src="multimedia/images/logoGodotEngine.png" alt="Godot Engine Logo" class="image">
                         <div class="tooltip">Godot Engine</div>
                     </div>
-                    <!-- falta database -->
+                    <div class="image-item">
+                        <img src="multimedia/images/logoSupabase.png" alt="Supabase Logo" class="image">
+                        <div class="tooltip">Supabase</div>
+                    </div>
                 </div>
             </div>
         </main>
 
         <footer>
             <div id="divFooter">
-                <img src="multimedia/images/pokeSharpLogoProvisional.png" alt="Logo PokeSharp" id="logoNormalFooter">
+                <img src="multimedia/images/logoProvisionalPokeSharp.png" alt="Logo PokeSharp" id="logoNormalFooter">
                 <span id="CopyrightTextoFooter">&copy; 2025 PokeSharp</span>
                 <p data-translate="pPropiedadFooter">Todas las texturas, imágenes y otros activos utilizados pertenecen a sus respectivos propietarios.</p>
                 <p data-translate="pAfiliadoFooter">PokeSharp no está afiliado ni a Nintendo, Game Freak, ni a The Pokémon Company.</p>

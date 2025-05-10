@@ -1,5 +1,9 @@
 {
-    "title": "PokeSharp - Home",
+    "titleHome": "PokeSharp - Home",
+    "titleUpdates": "PokeSharp - Updates",
+    "titleFAQ": "PokeSharp - FAQ",
+    "titleNotFound": "PokeSharp - Page not found",
+
     "descargarNav": "Download",
     "versionesNav": "Updates",
     "discordNav": "Discord",
@@ -19,6 +23,7 @@
     "pPropiedadFooter": "All textures, images, and other assets used belong to their respective owners.",
     "pAfiliadoFooter": "PokeSharp is not affiliated with Nintendo, Game Freak, or The Pokémon Company.",
 
+    "faqTitle": "Frequently Asked Questions",
     "faq1": "1. How can I play it?",
     "faq1P1": "You can play it initially on PC, and it might come to mobile soon. The download link is: Pending.",
     "faq2": "2. What is PokeSharp?",
