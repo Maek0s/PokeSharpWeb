@@ -3,11 +3,8 @@
 /* ver si el nav es aqui quitar el transparente o algo similar */
 
 /* First page */
-
 #firstPage {
     position: relative;
-    top: 0;
-    left: 0;
     width: 100vw;
     height: 35vh;
     background-color: #5F85C4;
@@ -24,11 +21,10 @@
 }
 
 /* Second page */
-
 #secondPage {
     background-color: #f3e6fa;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; /* Posicionar los elementos en fila */
     align-items: flex-start;
     padding: 0px;
     margin: 0px;
@@ -37,35 +33,107 @@
 #secondPage div {
     margin-top: 10px;
     margin-bottom: 20px;
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
-}
-
-#secondPage h2 {
-    margin-left: 13.5%;
-    margin-bottom: 10px;
-    margin-top: 15px;
-}
-
-#secondPage p {
-    margin-left: 15%;
 }
 
 #secondPage img {
     max-width: 400px;
     height: auto;
     margin-left: 20px;
-    margin-right: 60px;
-    flex-shrink: 0;
-    align-self: center;
+    flex: 1;
+    align-self: flex-start;
 }
 
-#secondPage a {
-    color: #9C75D5;
-    text-decoration: none;
-    font-weight: bold;
+#secondPage h2 {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
+#secondPage p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
 
-/* Third page */
+#logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#divFooter {
+    text-align: center;
+    padding: 20px;
+}
+
+#redesSocialesFooter a {
+    margin: 0 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    #firstPage h1 {
+        font-size: 2em;
+    }
+
+    #secondPage {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center; /* Centrar elementos horizontalmente */
+        justify-content: center; /* Centrar elementos verticalmente */
+    }
+
+    #secondPage img {
+        margin: 20px 0; /* Márgenes para separar imagen del texto */
+        max-width: 90%; /* Ajustar ancho de la imagen */
+        height: auto;
+    }
+
+    #secondPage div {
+        margin: 10px 0;
+    }
+
+    #secondPage h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    #secondPage p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #firstPage {
+        height: 25vh;
+    }
+
+    #firstPage h1 {
+        font-size: 1.5em;
+    }
+
+    #secondPage h2  {
+        font-size: 1.5em;
+    }
+    #secondPage p {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 0.9em;
+    }
+
+    #secondPage img {
+        max-width: 80%;
+        height: 70%;
+    }
+
+    #divFooter span, #divFooter p {
+        font-size: 0.8em;
+    }
+
+    #redesSocialesFooter a {
+        font-size: 1.2em;
+    }
+}
