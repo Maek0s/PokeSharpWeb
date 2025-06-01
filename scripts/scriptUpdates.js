@@ -1,4 +1,4 @@
-// Función para cargar las versiones desde un archivo JSON
+/*// Función para cargar las versiones desde un archivo JSON
 async function loadVersions(language) {
     // Cargar el archivo JSON de versiones
     try {
@@ -61,3 +61,4 @@ async function loadVersions(language) {
 
 // Llamar a la función para cargar las versiones en español (o en inglés)
 loadVersions('es'); // O 'en' para cargar la versión en inglés
+*/
